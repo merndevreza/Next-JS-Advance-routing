@@ -4,12 +4,15 @@ const parallelDashboardLayout = ({
   notifications,
   quiz,
 }) => {
+   // conditionally rendering a slot
+  const isShowNotification = false;
+
   return (
     <div>
       {children}
       <div className=" grid gap-6 grid-cols-2 grid-rows-2 p-8">
         {assignments}
-        {notifications}
+        {isShowNotification && notifications}
         {quiz}
       </div>
     </div>
