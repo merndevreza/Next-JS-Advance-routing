@@ -5,7 +5,7 @@ const parallelDashboardLayout = ({
   quiz,
 }) => {
    // conditionally rendering a slot
-  const isShowNotification = false;
+  const isShowNotification = true;
 
   return (
     <div>

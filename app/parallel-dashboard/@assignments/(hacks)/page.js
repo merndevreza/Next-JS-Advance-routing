@@ -1,7 +1,7 @@
-import { wait } from "@/lib/wait";
+// import { wait } from "@/lib/wait";
 
 const assignmentPage = async() => {
-   await wait(3000)
+   // await wait(3000)
    // throw new Error("An error occurred in assignments slot")
    return (
       <div className="text-xl p-4 border-2 border-green-400 bg-yellow-100 rounded h-[360px] flex  items-center justify-center">
